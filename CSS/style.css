@@ -1,0 +1,350 @@
+/*Pagina Prinsipal */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4e4c6;
+    text-align: justify;
+}
+header {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #b8860b;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 8px;
+    background-image: url("1.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height:150px; 
+    width: 95%;
+}
+/* borde de letra*/
+h1{
+    color: white;
+    -webkit-text-stroke: 2px black;
+}
+/* Fin*/
+
+main {
+    display: flex;
+    text-align: justify;
+    padding: 20px;
+}
+.content {
+    width: 100%;
+    background: white;
+    padding: 20px;
+    margin-right: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: justify;
+}
+/*Formulario*/
+.body1{
+    font-family:Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 15px;
+    background:rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select, textarea, button{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #000000 ;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea{
+    resize: none;
+}
+
+button{
+    background-color: #d75b5b;
+    color : rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #ff0000;
+}
+/*Fin Fomulario*/
+.sidebar {
+    width: 20%;
+    color: black;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(164, 164, 164, 0.1);
+    background: linear-gradient(90deg, rgb(20, 56, 104) 0%, rgb(10, 134, 230) 35%, rgb(20, 56, 104) 100%);
+    text-align: justify;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #614120;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+    margin-top: 3px;
+    border-radius: 8px;
+}
+
+/* Imagenes */
+.logo {
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+.img1{
+    width: 300px;
+    height: 200px;
+}
+
+/* TItulos y parrafos */
+.t1 {
+    background-color: #252423;
+    color: #ffffff;
+    border-radius: 8px;
+}
+.w1 {
+    background: linear-gradient(90deg, rgb(59, 60, 61) 0%, rgb(10, 10, 10) 35%, rgb(59, 60, 61) 100%);
+    color: #ffffff;
+}
+.side {
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+/* hover */
+.side nav a {
+    color: rgb(0, 0, 0); 
+    text-decoration: none; 
+    padding: 10px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+.side nav a:hover {
+    background-color: rgba(137, 109, 69, 0.836);
+    border-radius: 8px;
+}
+/*fin Hover*/
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.txt {
+    margin-right: 20px;
+    display: flex;
+}
+
+/* parrafo intercalado img1 */
+.contenedor1 {
+    display: flex;
+    gap: 20px; 
+}
+.contenedor1 img {
+    height: auto;
+}
+/* Fin de la pagina Principal */
+
+/* Paginan de Historia */
+.contenedor2 {
+    display: flex;
+    gap: 20px; 
+}
+.contenedor2 img {
+    height: auto;
+}
+
+.img2{
+    width: 400px;
+    height: 300px;
+}
+/*text intercalado */
+.textoIntercalado {
+    display: flex;
+    justify-content: space-between; 
+}
+.texto1, .texto2 {
+    width: 60%; 
+}
+/*Fin */
+.contenedor3 {
+    display: flex;
+    gap: 20px; 
+}
+
+.contenedor3 img {
+    height: auto;
+}
+.texto {
+    font-size: 18px;
+    max-width: 400px;
+}
+ul{
+    text-align: justify;
+}
+/*fin de la Pajina Historia*/
+
+/* Pagina Religion y Creencias */
+
+ol{
+    text-align: left;
+}
+.contenedor4 {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 20px; 
+
+}
+.contenedor4 img {
+    height: auto;
+}
+.texto {
+    font-size: 18px;
+    max-width: 400px;
+}
+
+.img3{
+    width: 300px;
+    height: 500px;
+}
+/* TablaDioses */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    }
+    th, td {
+    border: 2px solid #614D3A;
+    padding: 10px;
+    }
+    th {
+    background-color: #967969;
+    color: white;
+    }
+    tr:nth-child(even) {
+    background-color: #E1C699;
+}
+
+/* Fin Tabla */
+.listasIntercaladas2 {
+    display: flex;
+    justify-content: space-between; 
+}
+.texto1, .texto2 {
+    width: 60%; 
+}
+
+.contenedor5 {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 20px; 
+
+}
+.contenedor5 img {
+    height: auto;
+}
+.texto {
+    font-size: 18px;
+    max-width: 400px;
+}
+.img4{
+    width: 400px;
+    height: 300px;
+}
+/* Fin de Pagina crencias*/
+
+/* Pagina Tecnologia */
+.img5{
+    width: 400px;
+    height: 250px;
+}
+
+.textoIntercaldo2 {
+    display: flex;
+    justify-content: space-between;
+}
+.texto1, .texto2 {
+    width: 60%; 
+}
+/*Fin de pagian Tecnologia*/
+.img6{
+    width: 400px;
+    height: 250px;
+}
+
+.textoIntercalado3 {
+    display: flex;
+    justify-content: space-between; 
+}
+.texto1, .img15 {
+    width: 60%; 
+}
+/*Fin de PaginaEconomia */
+
+video{
+    width:800px;
+    height:400px;
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    header, footer {
+        text-align: center;
+        padding: 25px;
+        width: 100%;
+    }
+
+    sidebar {
+        display: none; 
+    }
+
+    form {
+        padding: 15px;
+        width: 90%;
+        margin: auto;
+    }
+
+    input, textarea {
+        width: 100%;
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 10px;
+        width: 100%;
+    }
+}
